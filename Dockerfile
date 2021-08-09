@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 
 # Use New Zealand mirrors
 RUN sed -i 's/archive/nz.archive/' /etc/apt/sources.list
